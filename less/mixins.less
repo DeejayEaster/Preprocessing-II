@@ -9,3 +9,15 @@
 .easeOut {
   transition: all 0.5s ease-in;
 }
+
+.button-mix (@align, @font-size, @border-radius) {
+  background-color: @button-bg;
+  color: @main-bg;
+  width: @btn-width;
+  height: @btn-height;
+  margin-left: 13%;
+  padding-top: 0.75rem;
+  text-align: @align;
+  font-size: @font-size;
+  border-radius: @border-radius;
+}
