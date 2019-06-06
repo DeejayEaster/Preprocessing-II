@@ -1,1 +1,26 @@
 // Navigation Styles here
+.top-box {
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px dashed @navigation-border;
+  .display(space-between, center);
+
+  .nav-box {
+    width: 800px;
+    margin: 0 auto;
+    .display(space-between, center);
+
+    nav {
+      align-self: flex-end;
+      font-size: 175%;
+      width: 50%;
+      padding-bottom: 12px;
+
+      a {
+        margin-left: 30px;
+        color: black;
+      }
+    }
+  }
+}
